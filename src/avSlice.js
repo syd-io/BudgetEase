@@ -22,7 +22,7 @@ export const avSlice = createSlice({
             quantity: 0,
         },
         {
-            img: "https://pixabay.com/images/download/public-speaking-3926344_640.jpg",
+            img: "https://cdn.pixabay.com/photo/2017/10/30/19/24/whiteboard-2903269_960_720.png",
             name: "Whiteboards",
             cost: 80,
             quantity: 0,
@@ -34,7 +34,6 @@ export const avSlice = createSlice({
             quantity: 0,
         },
     ],
-
 
     reducers: {
         incrementAvQuantity: (state, action) => {
